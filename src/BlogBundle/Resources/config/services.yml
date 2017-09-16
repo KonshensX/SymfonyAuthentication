@@ -1,0 +1,6 @@
+services:
+    # This service is related to the post voter i just created
+    app.post.voter:
+        class: BlogBundle\Security\PostVoter
+        tags:
+            - { name: security.voter }
